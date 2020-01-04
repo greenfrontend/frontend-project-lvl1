@@ -34,3 +34,11 @@ brain-gcd
 ```
 
 [![asciicast](https://asciinema.org/a/diOw6dsqhRnH8H6wt525lSYLm.svg)](https://asciinema.org/a/diOw6dsqhRnH8H6wt525lSYLm)
+
+## play brain-progression
+
+```bash
+brain-progression
+```
+
+[![asciicast](https://asciinema.org/a/uEPpYvLKPTu8UnUyhXhr6ZUjT.svg)](https://asciinema.org/a/uEPpYvLKPTu8UnUyhXhr6ZUjT)

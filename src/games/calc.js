@@ -1,13 +1,6 @@
-import { generateRandomInteger, generateRandomSign } from '../utils';
+import { generateRandomInteger, generateRandomSign, calculate } from '../utils';
 
 const description = 'What is the result of the expression?\n';
-
-const calculate = (number1, number2, sign) => {
-  if (sign === '-') return number1 - number2;
-  if (sign === '+') return number1 + number2;
-  if (sign === '*') return number1 * number2;
-  return number1 + number2;
-};
 
 const makeGame = () => {
   const number1 = generateRandomInteger();

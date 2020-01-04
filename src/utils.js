@@ -11,4 +11,11 @@ const generateRandomSign = () => {
   return signs[randomIndex];
 };
 
-export { generateRandomInteger, generateRandomSign };
+const calculate = (number1, number2, sign) => {
+  if (sign === '-') return number1 - number2;
+  if (sign === '+') return number1 + number2;
+  if (sign === '*') return number1 * number2;
+  return number1 + number2;
+};
+
+export { generateRandomInteger, generateRandomSign, calculate };
