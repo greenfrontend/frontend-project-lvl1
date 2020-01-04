@@ -1,9 +1,6 @@
 import readlineSync from 'readline-sync';
-import generateRandomInteger from './utils';
 
 const COUNT_OF_GAMES = 3;
-const MIN_RANDOM_NUMBER = 1;
-const MAX_RANDOM_NUMBER = 20;
 
 const game = (currentGame, name) => {
   const iter = (count, acc) => {
@@ -12,10 +9,9 @@ const game = (currentGame, name) => {
       return null;
     }
 
-    const question = generateRandomInteger(MIN_RANDOM_NUMBER, MAX_RANDOM_NUMBER);
-    const expectedAnswer = currentGame(question) ? 'yes' : 'no';
+    const { question, answer: expectedAnswer } = currentGame();
 
-    console.log('Question: ', question);
+    console.log(`Question: ${question}`);
     const actualAnswer = readlineSync.question('Your answer: ');
 
     if (actualAnswer !== expectedAnswer) {
