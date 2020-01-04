@@ -1,7 +1,8 @@
 {
   "name": "braingames-greenfrontend",
   "version": "1.0.4",
-  "description": "",
+  "description": "This is first project of hexlet.io educational platform.",
+  "keywords": ["hexlet", "games", "cli-games", "node", "brain games"],
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
