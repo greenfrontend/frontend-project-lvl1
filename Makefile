@@ -6,3 +6,6 @@ start:
 
 publish-test:
 	npm publish --dry-run
+
+lint:
+	npx eslint .
