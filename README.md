@@ -26,3 +26,11 @@ brain-calc
 ```
 
 [![asciicast](https://asciinema.org/a/FEQgEiMpb053HZZxlFSaeq5Gl.svg)](https://asciinema.org/a/FEQgEiMpb053HZZxlFSaeq5Gl)
+
+## play brain-gcd
+
+```bash
+brain-gcd
+```
+
+[![asciicast](https://asciinema.org/a/diOw6dsqhRnH8H6wt525lSYLm.svg)](https://asciinema.org/a/diOw6dsqhRnH8H6wt525lSYLm)
