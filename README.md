@@ -42,3 +42,11 @@ brain-progression
 ```
 
 [![asciicast](https://asciinema.org/a/uEPpYvLKPTu8UnUyhXhr6ZUjT.svg)](https://asciinema.org/a/uEPpYvLKPTu8UnUyhXhr6ZUjT)
+
+## play brain-prime
+
+```bash
+brain-prime
+```
+
+[![asciicast](https://asciinema.org/a/TSVzSPBsaWYEq8tANRa2ofM3t.svg)](https://asciinema.org/a/TSVzSPBsaWYEq8tANRa2ofM3t)
