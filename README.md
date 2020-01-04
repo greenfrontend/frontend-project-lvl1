@@ -18,3 +18,11 @@ brain-even
 ```
 
 [![asciicast](https://asciinema.org/a/wOeWFxOR7fZFWm5GbVoBPHqHL.svg)](https://asciinema.org/a/wOeWFxOR7fZFWm5GbVoBPHqHL)
+
+## play brain-calc
+
+```bash
+brain-calc
+```
+
+[![asciicast](https://asciinema.org/a/FEQgEiMpb053HZZxlFSaeq5Gl.svg)](https://asciinema.org/a/FEQgEiMpb053HZZxlFSaeq5Gl)
