@@ -1,4 +1,4 @@
-import { generateRandomInteger } from '../utils';
+import generateRandomInteger from '../utils';
 
 const description = 'Answer "yes" if the number is even, otherwise answer "no".\n';
 

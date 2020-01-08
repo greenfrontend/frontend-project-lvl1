@@ -1,4 +1,4 @@
-import { generateRandomInteger } from '../utils';
+import generateRandomInteger from '../utils';
 
 const MIN_DELTA_INTEGER = -10;
 const MAX_DELTA_INTEGER = 10;
