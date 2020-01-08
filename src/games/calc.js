@@ -9,10 +9,16 @@ const generateRandomSign = () => {
 };
 
 const calculate = (number1, number2, sign) => {
-  if (sign === '-') return number1 - number2;
-  if (sign === '+') return number1 + number2;
-  if (sign === '*') return number1 * number2;
-  return number1 + number2;
+  switch (sign) {
+    case '-':
+      return number1 - number2;
+    case '+':
+      return number1 + number2;
+    case '*':
+      return number1 * number2;
+    default:
+      return number1 + number2;
+  }
 };
 
 const makeGame = () => {
