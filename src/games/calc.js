@@ -1,3 +1,4 @@
+import makeGame from '../gameEngine';
 import generateRandomInteger from '../utils';
 
 const description = 'What is the result of the expression?\n';
@@ -21,7 +22,7 @@ const calculate = (number1, number2, sign) => {
   }
 };
 
-const makeGame = () => {
+const game = () => {
   const number1 = generateRandomInteger();
   const number2 = generateRandomInteger();
   const sign = generateRandomSign();
@@ -32,4 +33,4 @@ const makeGame = () => {
   return { question, answer };
 };
 
-export { makeGame as default, description };
+export default () => makeGame(game, description);

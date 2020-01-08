@@ -1,3 +1,4 @@
+import makeGame from '../gameEngine';
 import generateRandomInteger from '../utils';
 
 const MIN_RANDOM_INTEGER = 1;
@@ -17,7 +18,7 @@ const isPrime = (number) => {
   return true;
 };
 
-const makeGame = () => {
+const game = () => {
   const number = generateRandomInteger(MIN_RANDOM_INTEGER, MAX_RANDOM_INTEGER);
   const question = `${number}`;
   const answer = isPrime(number) ? 'yes' : 'no';
@@ -25,4 +26,4 @@ const makeGame = () => {
   return { question, answer };
 };
 
-export { makeGame as default, description };
+export default () => makeGame(game, description);

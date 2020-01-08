@@ -1,3 +1,4 @@
+import makeGame from '../gameEngine';
 import generateRandomInteger from '../utils';
 
 const MIN_RANDOM_INTEGER = 10;
@@ -17,7 +18,7 @@ const findGcd = (number1, number2) => {
   return x;
 };
 
-const makeGame = () => {
+const game = () => {
   const number1 = generateRandomInteger(MIN_RANDOM_INTEGER, MAX_RANDOM_INTEGER);
   const number2 = generateRandomInteger(MIN_RANDOM_INTEGER, MAX_RANDOM_INTEGER);
 
@@ -27,4 +28,4 @@ const makeGame = () => {
   return { question, answer };
 };
 
-export { makeGame as default, description };
+export default () => makeGame(game, description);

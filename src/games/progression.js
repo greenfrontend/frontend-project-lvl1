@@ -1,3 +1,4 @@
+import makeGame from '../gameEngine';
 import generateRandomInteger from '../utils';
 
 const MIN_DELTA_INTEGER = -10;
@@ -14,7 +15,7 @@ const generateProgressionArray = (startNumber, delta, size) => {
   return result;
 };
 
-const makeGame = () => {
+const game = () => {
   const startNumber = generateRandomInteger();
   const delta = generateRandomInteger(MIN_DELTA_INTEGER, MAX_DELTA_INTEGER);
   const progression = generateProgressionArray(startNumber, delta, PROGRESSION_SIZE);
@@ -28,4 +29,4 @@ const makeGame = () => {
   return { question, answer };
 };
 
-export { makeGame as default, description };
+export default () => makeGame(game, description);

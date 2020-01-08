@@ -1,11 +1,5 @@
 #!/usr/bin/env node
 
-import sayHelloToUser from '..';
-import makeGame, { description } from '../games/even';
-import game from '../gameEngine';
+import gameStart from '../games/even';
 
-console.log('Welcome to the Brain Games!');
-console.log(description);
-
-const name = sayHelloToUser();
-game(makeGame, name);
+gameStart();
