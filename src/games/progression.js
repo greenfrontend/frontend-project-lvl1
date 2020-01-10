@@ -15,7 +15,7 @@ const generateProgressionArray = (startNumber, delta, size) => {
   return result;
 };
 
-const game = () => {
+const getQuestionAndAnswerFromGame = () => {
   const startNumber = generateRandomInteger();
   const delta = generateRandomInteger(MIN_DELTA_INTEGER, MAX_DELTA_INTEGER);
   const progression = generateProgressionArray(startNumber, delta, PROGRESSION_SIZE);
@@ -29,4 +29,4 @@ const game = () => {
   return { question, answer };
 };
 
-export default () => makeGame(game, description);
+export default () => makeGame(getQuestionAndAnswerFromGame, description);

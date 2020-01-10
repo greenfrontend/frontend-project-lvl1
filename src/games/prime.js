@@ -18,7 +18,7 @@ const isPrime = (number) => {
   return true;
 };
 
-const game = () => {
+const getQuestionAndAnswerFromGame = () => {
   const number = generateRandomInteger(MIN_RANDOM_INTEGER, MAX_RANDOM_INTEGER);
   const question = `${number}`;
   const answer = isPrime(number) ? 'yes' : 'no';
@@ -26,4 +26,4 @@ const game = () => {
   return { question, answer };
 };
 
-export default () => makeGame(game, description);
+export default () => makeGame(getQuestionAndAnswerFromGame, description);

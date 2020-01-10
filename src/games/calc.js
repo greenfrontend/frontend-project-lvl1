@@ -22,7 +22,7 @@ const calculate = (number1, number2, sign) => {
   }
 };
 
-const game = () => {
+const getQuestionAndAnswerFromGame = () => {
   const number1 = generateRandomInteger();
   const number2 = generateRandomInteger();
   const sign = generateRandomSign();
@@ -33,4 +33,4 @@ const game = () => {
   return { question, answer };
 };
 
-export default () => makeGame(game, description);
+export default () => makeGame(getQuestionAndAnswerFromGame, description);

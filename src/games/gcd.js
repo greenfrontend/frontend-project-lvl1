@@ -18,7 +18,7 @@ const findGcd = (number1, number2) => {
   return x;
 };
 
-const game = () => {
+const getQuestionAndAnswerFromGame = () => {
   const number1 = generateRandomInteger(MIN_RANDOM_INTEGER, MAX_RANDOM_INTEGER);
   const number2 = generateRandomInteger(MIN_RANDOM_INTEGER, MAX_RANDOM_INTEGER);
 
@@ -28,4 +28,4 @@ const game = () => {
   return { question, answer };
 };
 
-export default () => makeGame(game, description);
+export default () => makeGame(getQuestionAndAnswerFromGame, description);
