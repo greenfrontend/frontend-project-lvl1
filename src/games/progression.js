@@ -19,7 +19,7 @@ const game = () => {
   const startNumber = generateRandomInteger();
   const delta = generateRandomInteger(MIN_DELTA_INTEGER, MAX_DELTA_INTEGER);
   const progression = generateProgressionArray(startNumber, delta, PROGRESSION_SIZE);
-  const randomIndex = generateRandomInteger(0, progression.length);
+  const randomIndex = generateRandomInteger(0, progression.length - 1);
   const progressionWithoutNumber = progression
     .map((number, index) => (index === randomIndex ? '..' : number));
 

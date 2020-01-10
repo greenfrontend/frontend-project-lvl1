@@ -5,7 +5,7 @@ const description = 'What is the result of the expression?\n';
 
 const generateRandomSign = () => {
   const signs = ['+', '-', '*'];
-  const randomIndex = generateRandomInteger(0, signs.length);
+  const randomIndex = generateRandomInteger(0, signs.length - 1);
   return signs[randomIndex];
 };
 
