@@ -20,7 +20,7 @@ const isPrime = (number) => {
 
 const getQuestionAndAnswerFromGame = () => {
   const number = generateRandomInteger(MIN_RANDOM_INTEGER, MAX_RANDOM_INTEGER);
-  const question = `${number}`;
+  const question = number.toString();
   const answer = isPrime(number) ? 'yes' : 'no';
 
   return { question, answer };
