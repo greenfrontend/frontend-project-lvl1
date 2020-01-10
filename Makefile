@@ -8,6 +8,7 @@ publish:
 	npm publish
 
 publish-test:
+	npx eslint .
 	npm publish --dry-run
 
 lint:
