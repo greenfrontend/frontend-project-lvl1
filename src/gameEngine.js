@@ -1,6 +1,6 @@
 import readlineSync from 'readline-sync';
 
-const COUNT_OF_GAMES = 3;
+const GAMES_COUNT = 3;
 
 const makeGame = (getQuestionAndAnswerFromGame, description) => {
   console.log('Welcome to the Brain Games!');
@@ -11,7 +11,7 @@ const makeGame = (getQuestionAndAnswerFromGame, description) => {
 
   let winGames = 0;
 
-  for (let i = 0; i < COUNT_OF_GAMES; i += 1) {
+  for (let i = 0; i < GAMES_COUNT; i += 1) {
     const { question, answer: expectedAnswer } = getQuestionAndAnswerFromGame();
     console.log(`Question: ${question}`);
     const actualAnswer = readlineSync.question('Your answer: ');
@@ -25,7 +25,7 @@ const makeGame = (getQuestionAndAnswerFromGame, description) => {
     }
   }
 
-  if (winGames === COUNT_OF_GAMES) {
+  if (winGames === GAMES_COUNT) {
     console.log(`Congratulations, ${name}!`);
   }
 };
