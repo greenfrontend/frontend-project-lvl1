@@ -4,7 +4,7 @@ import generateRandomInteger from '../utils';
 const MIN_RANDOM_INTEGER = 10;
 const MAX_RANDOM_INTEGER = 40;
 
-const description = 'Find the greatest common divisor of given numbers.\n';
+const description = 'Find the greatest common divisor of given numbers.';
 
 const findGcd = (number1, number2) => {
   let x = Math.abs(number1);

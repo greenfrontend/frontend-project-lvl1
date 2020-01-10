@@ -1,7 +1,7 @@
 import makeGame from '../gameEngine';
 import generateRandomInteger from '../utils';
 
-const description = 'What is the result of the expression?\n';
+const description = 'What is the result of the expression?';
 
 const generateRandomSign = () => {
   const signs = ['+', '-', '*'];

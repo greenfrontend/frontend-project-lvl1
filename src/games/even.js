@@ -1,7 +1,7 @@
 import makeGame from '../gameEngine';
 import generateRandomInteger from '../utils';
 
-const description = 'Answer "yes" if the number is even, otherwise answer "no".\n';
+const description = 'Answer "yes" if the number is even, otherwise answer "no".';
 
 const isEven = (number) => number % 2 === 0;
 

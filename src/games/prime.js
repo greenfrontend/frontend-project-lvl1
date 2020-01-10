@@ -4,7 +4,7 @@ import generateRandomInteger from '../utils';
 const MIN_RANDOM_INTEGER = 1;
 const MAX_RANDOM_INTEGER = 100;
 
-const description = 'Answer "yes" if given number is prime. Otherwise answer "no".\n';
+const description = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
 const isPrime = (number) => {
   if (number < 2) {

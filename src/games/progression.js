@@ -5,7 +5,7 @@ const MIN_DELTA_INTEGER = -10;
 const MAX_DELTA_INTEGER = 10;
 const PROGRESSION_SIZE = 10;
 
-const description = 'What number is missing in the progression?\n';
+const description = 'What number is missing in the progression?';
 
 const generateProgressionArray = (startNumber, delta, size) => {
   const result = [];
