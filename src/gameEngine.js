@@ -9,25 +9,20 @@ const makeGame = (getQuestionAndAnswerFromGame, description) => {
   const name = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${name}!\n`);
 
-  let winGames = 0;
-
   for (let i = 0; i < GAMES_COUNT; i += 1) {
     const { question, answer: expectedAnswer } = getQuestionAndAnswerFromGame();
     console.log(`Question: ${question}`);
     const actualAnswer = readlineSync.question('Your answer: ');
-    if (actualAnswer === expectedAnswer) {
-      console.log('Correct!\n');
-      winGames += 1;
-    } else {
+
+    if (actualAnswer !== expectedAnswer) {
       console.log(`\n'${actualAnswer}' is wrong answer ;(. Correct answer was '${expectedAnswer}'.`);
       console.log(`Let's try again, ${name}!\n`);
-      break;
+      return;
     }
+    console.log('Correct!\n');
   }
 
-  if (winGames === GAMES_COUNT) {
-    console.log(`Congratulations, ${name}!`);
-  }
+  console.log(`Congratulations, ${name}!`);
 };
 
 export default makeGame;
