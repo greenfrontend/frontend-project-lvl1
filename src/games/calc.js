@@ -3,8 +3,9 @@ import generateRandomInteger from '../utils';
 
 const description = 'What is the result of the expression?';
 
-const generateRandomSign = () => {
-  const signs = ['+', '-', '*'];
+const arithmeticOperator = ['+', '-', '*'];
+
+const generateRandomSign = (signs) => {
   const randomIndex = generateRandomInteger(0, signs.length - 1);
   return signs[randomIndex];
 };
@@ -25,7 +26,7 @@ const calculate = (number1, number2, sign) => {
 const getQuestionAndAnswerFromGame = () => {
   const number1 = generateRandomInteger();
   const number2 = generateRandomInteger();
-  const sign = generateRandomSign();
+  const sign = generateRandomSign(arithmeticOperator);
 
   const question = `${number1} ${sign} ${number2}`;
   const answer = String(calculate(number1, number2, sign));
