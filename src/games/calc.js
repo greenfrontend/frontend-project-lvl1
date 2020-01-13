@@ -18,7 +18,7 @@ const calculate = (number1, number2, sign) => {
     case '*':
       return number1 * number2;
     default:
-      return 0;
+      return false;
   }
 };
 
