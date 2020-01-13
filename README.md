@@ -9,7 +9,7 @@
 sudo npm install -g braingames-greenfrontend
 ```
 
-[![asciicast](https://asciinema.org/a/T4lDUpEEdT28W81x5KPwHSGLU.svg)](https://asciinema.org/a/T4lDUpEEdT28W81x5KPwHSGLU)
+[![asciicast](https://asciinema.org/a/SQIrq5WfotXfpoB9AvyWH8xUU.svg)](https://asciinema.org/a/SQIrq5WfotXfpoB9AvyWH8xUU)
 
 ## play brain-even
 
@@ -17,7 +17,7 @@ sudo npm install -g braingames-greenfrontend
 brain-even
 ```
 
-[![asciicast](https://asciinema.org/a/wOeWFxOR7fZFWm5GbVoBPHqHL.svg)](https://asciinema.org/a/wOeWFxOR7fZFWm5GbVoBPHqHL)
+[![asciicast](https://asciinema.org/a/Xa6WbaE6i0OtWyagliSirxqYD.svg)](https://asciinema.org/a/Xa6WbaE6i0OtWyagliSirxqYD)
 
 ## play brain-calc
 
@@ -25,7 +25,7 @@ brain-even
 brain-calc
 ```
 
-[![asciicast](https://asciinema.org/a/FEQgEiMpb053HZZxlFSaeq5Gl.svg)](https://asciinema.org/a/FEQgEiMpb053HZZxlFSaeq5Gl)
+[![asciicast](https://asciinema.org/a/bJTito83oOcYIjyTX0zXGLV6O.svg)](https://asciinema.org/a/bJTito83oOcYIjyTX0zXGLV6O)
 
 ## play brain-gcd
 
@@ -33,7 +33,7 @@ brain-calc
 brain-gcd
 ```
 
-[![asciicast](https://asciinema.org/a/diOw6dsqhRnH8H6wt525lSYLm.svg)](https://asciinema.org/a/diOw6dsqhRnH8H6wt525lSYLm)
+[![asciicast](https://asciinema.org/a/aK1fHEgAlyGjD7n7cdoW18kG3.svg)](https://asciinema.org/a/aK1fHEgAlyGjD7n7cdoW18kG3)
 
 ## play brain-progression
 
@@ -41,7 +41,7 @@ brain-gcd
 brain-progression
 ```
 
-[![asciicast](https://asciinema.org/a/uEPpYvLKPTu8UnUyhXhr6ZUjT.svg)](https://asciinema.org/a/uEPpYvLKPTu8UnUyhXhr6ZUjT)
+[![asciicast](https://asciinema.org/a/3JsJ3hJWVMaYZTLHgEzvjLaTs.svg)](https://asciinema.org/a/3JsJ3hJWVMaYZTLHgEzvjLaTs)
 
 ## play brain-prime
 
@@ -49,4 +49,4 @@ brain-progression
 brain-prime
 ```
 
-[![asciicast](https://asciinema.org/a/TSVzSPBsaWYEq8tANRa2ofM3t.svg)](https://asciinema.org/a/TSVzSPBsaWYEq8tANRa2ofM3t)
+[![asciicast](https://asciinema.org/a/H9U0e12chgo0mpnXWWZh0T51M.svg)](https://asciinema.org/a/H9U0e12chgo0mpnXWWZh0T51M)
