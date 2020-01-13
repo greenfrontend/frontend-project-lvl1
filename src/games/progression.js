@@ -7,7 +7,7 @@ const PROGRESSION_SIZE = 10;
 
 const description = 'What number is missing in the progression?';
 
-const generateProgressionArray = (startNumber, delta, size) => {
+const generateProgression = (startNumber, delta, size) => {
   const result = [];
   for (let i = 0; i < size; i += 1) {
     result.push(startNumber + i * delta);
@@ -18,7 +18,7 @@ const generateProgressionArray = (startNumber, delta, size) => {
 const getQuestionAndAnswerFromGame = () => {
   const startNumber = generateRandomInteger();
   const delta = generateRandomInteger(MIN_DELTA_INTEGER, MAX_DELTA_INTEGER);
-  const progression = generateProgressionArray(startNumber, delta, PROGRESSION_SIZE);
+  const progression = generateProgression(startNumber, delta, PROGRESSION_SIZE);
   const randomIndex = generateRandomInteger(0, progression.length - 1);
   const progressionWithoutNumber = progression
     .map((number, index) => (index === randomIndex ? '..' : number));
